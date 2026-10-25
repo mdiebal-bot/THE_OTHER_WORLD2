@@ -1,0 +1,20 @@
+{
+  "texture_size": [64, 64],
+  "textures": { "0": "theotherworld:block/dimensional_core", "particle": "theotherworld:block/dimensional_core" },
+  "elements": [
+    { "from": [0, 0, 0], "to": [16, 16, 16], "faces": {
+      "up":    { "uv": [16, 0, 32, 16],  "texture": "#0" },
+      "down":  { "uv": [32, 0, 48, 16],  "texture": "#0" },
+      "east":  { "uv": [0, 16, 16, 32],  "texture": "#0" },
+      "north": { "uv": [16, 16, 32, 32], "texture": "#0" },
+      "west":  { "uv": [32, 16, 48, 32], "texture": "#0" },
+      "south": { "uv": [48, 16, 64, 32], "texture": "#0" } } },
+    { "from": [5, 4, 5], "to": [11, 10, 11], "faces": {
+      "up":    { "uv": [26, 40, 32, 46], "texture": "#0" },
+      "down":  { "uv": [32, 40, 38, 46], "texture": "#0" },
+      "east":  { "uv": [20, 46, 26, 52], "texture": "#0" },
+      "north": { "uv": [26, 46, 32, 52], "texture": "#0" },
+      "west":  { "uv": [32, 46, 38, 52], "texture": "#0" },
+      "south": { "uv": [38, 46, 44, 52], "texture": "#0" } } }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "theotherworld",
+  "version": "${version}",
+  "name": "THE OTHER WORLD",
+  "description": "Eine neue Dimension wartet.",
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["theotherworld.TheOtherWorld"],
+    "client": ["theotherworld.client.TheOtherWorldClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "geckolib": "*"
+  }
+}
